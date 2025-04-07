@@ -11,5 +11,10 @@ public class DataTypes{
 
         char ch = 'K'; // 2 bytes because Java follows UNICODE and NOT ASCII. In single Quotes, takes only one character.
         boolean isTrue = true; // 1 byte
+
+        char ch1 = 97; // tnis is also valid 
+        char ch2 = '\u0061'; // this is also valid as this is a unicode
+        // char ch3 = "a"; not valid 
+
     }
 }
