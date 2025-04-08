@@ -6,6 +6,7 @@ public class Strings {
      * we do not create a object of it using the new keyword, why?
      * because an object is automatically createde behind the scenes
      */
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         String name = "Nikil";
 
