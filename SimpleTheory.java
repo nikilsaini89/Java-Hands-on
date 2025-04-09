@@ -8,6 +8,7 @@ public class SimpleTheory {
      * ah_Strings includes String, String Buffer, String Builder.
      * ai_StaticKeyword includes static variables, static methods and static block.
      * aj_Encapsulation includes Data specifiers, Getter Setters and this Keyword.
+     * ak_AnonymousObject includes Anonymous Object and its use.
      * 
      * 
      * INEHRITENCE THEORY 
