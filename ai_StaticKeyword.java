@@ -50,7 +50,8 @@ public class StaticKeyword {
      * object of class - StaticKeyword, but as execution is not started, we can not make the object, so there is a deadlock, 
      * hence make static
      */
-    public static void main(String[] args) throws ClassNotFoundException {
+    @SuppressWarnings("unused")
+     public static void main(String[] args) throws ClassNotFoundException {
         /* 
          * Prints - 
          * In static Block
