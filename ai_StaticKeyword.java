@@ -44,7 +44,7 @@ class Mobile {
     
 }
 
-public class StaticKeyword {
+public class ai_StaticKeyword {
     /*
      * The main is static because it is the starting point of execution, if we do not make static, that means we need to make 
      * object of class - StaticKeyword, but as execution is not started, we can not make the object, so there is a deadlock, 

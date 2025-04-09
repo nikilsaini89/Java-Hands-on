@@ -1,4 +1,4 @@
-public class DataTypes{
+public class aa_DataTypes{
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         long num3 = 23323224533l; // 8 bytes --> 64 bits, range  range -2^63 to 2^63-1

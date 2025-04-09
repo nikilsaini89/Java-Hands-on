@@ -1,4 +1,4 @@
-public class Literals {
+public class ab_Literals {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         

@@ -1,4 +1,4 @@
-public class Strings {
+public class ah_Strings {
     /*
      * Primitive Data Types start withs small letters like int float boolean 
      * but String is not a P DataType, it is a class but

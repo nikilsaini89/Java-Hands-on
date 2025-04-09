@@ -1,4 +1,4 @@
-public class Arryas {
+public class ag_Arryas {
     public static void main(String[] args) {
         /*
          * Static Initialisation of Array

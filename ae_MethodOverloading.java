@@ -20,7 +20,7 @@ class Calculator{
         return a+b+c;
     }
 }
-public class MethodOverloading {
+public class ae_MethodOverloading {
     public static void main(String[] args) {
         
     }

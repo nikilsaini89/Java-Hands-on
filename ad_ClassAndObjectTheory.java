@@ -11,7 +11,7 @@ class GetPen{
         else return "No Pen";
     }
 }
-public class ClassAndObjectTheory {
+public class ad_ClassAndObjectTheory {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Calculator calc = new Calculator();

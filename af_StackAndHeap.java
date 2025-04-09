@@ -18,7 +18,7 @@ class Calculator{
  * result
  * ob1 and ob2, but they point to address in the heap memory 
  */
-public class StackAndHeap {
+public class af_StackAndHeap {
     public static void main(String[] args) {
         int data = 10;
         System.out.println(data);

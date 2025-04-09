@@ -1,4 +1,4 @@
-public class TypeCasting {
+public class ac_TypeCasting {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Convert a bigger value (int) to a smaller value (byte)
