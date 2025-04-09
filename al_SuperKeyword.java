@@ -23,7 +23,8 @@ class Child extends Parent{
         System.out.println("Child Constructor Called");
     }
     public Child(int a){
-        super(a); // Calls the Parent constructor with int
+        this(); 
+        // super(a); // Calls the Parent constructor with int
         // super(); // This will call the Parent constructor without int
         System.out.println("Child Constructor with int called");
     }
@@ -33,17 +34,16 @@ public class al_SuperKeyword {
         /**
          * Super Keyword
          * 1. Super Keyword is used to refer the immediate parent class object.
-         * 2. It is used to access the data members of parent class.
-         * 3. It is used to call the constructor of parent class.
-         * 4. It is used to call the method of parent class.
-         * 5. We can not use super keyword to access the static and Private members of parent class.
+         * 2. It is used to access the data members, constructor, methods of parent class.
+         * 3. We can not use super keyword to access the static and Private members of parent class.
+         * 4. No Matter if I am calling the method of parent class, the parent class constructor will be called first.
          */
         /**
          * This keyword is used to refer the current class object.
          */
 
-        Child c = new Child(); // Calls the Parent constructor first and then Child constructor
+        // Child c = new Child(); 
         System.out.println();
-        // Child c1 = new Child(5); // Calls the Parent constructor with int and then Child constructor with int     
+        Child c1 = new Child(5);  
     }
 }
