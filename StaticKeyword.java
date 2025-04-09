@@ -2,7 +2,30 @@ class Mobile {
     static String name; // Static variables shared by all the instances of the 
     int price;
     String brand;
-    
+
+
+    /*
+     * Static Block - Used to initialise the static variables
+     */
+
+    static
+    {
+        System.out.println("In static Block");
+        /*
+         * Will be called only once when the class is loaded (There is a coommon area in the JVM
+         * that contains all the classes which are loaded once before making their instance).
+         * When the class in loaded, this static block is called(see print below) and this is the reason that it is called
+         * before the constructors because cons will be called while making the object.
+         */
+        name = "Nikil";
+    }
+
+    public Mobile(){
+        System.out.println("In Constructor");
+        brand = "";
+        price = 1200;
+    }
+
     public void show(){
         // In non static methods, we can use static variables, just an FYI
         System.out.println(name + " " + price + " " + brand); 
@@ -27,7 +50,17 @@ public class StaticKeyword {
      * object of class - StaticKeyword, but as execution is not started, we can not make the object, so there is a deadlock, 
      * hence make static
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
+        /* 
+         * Prints - 
+         * In static Block
+         * In Constructor
+         * In Constructor
+         * SmartPhone 4321 Apple
+         * In the static Method
+         * SmartPhone 4321 Apple
+         * In Constructor
+         */
         Mobile obj1 = new Mobile();
         obj1.brand = "Samsung";
         obj1.price = 1234;
@@ -40,6 +73,19 @@ public class StaticKeyword {
         obj2.show(); // prints SmartPhone 4321 Apple
 
         Mobile.show1(obj2);  // prints SmartPhone 4321 Apple
+
+
+        /**
+         * Static Block
+         */
+        Mobile obj3 = new Mobile();
+
+        /*
+         * How to only load a class but not make a object of it, this will not create a object
+         * but loads the class, so the static block will be called and it throws a exception
+         * Class Not Found
+         */
+        Class.forName("Mobile");
 
     }
 }
