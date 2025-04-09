@@ -1,3 +1,4 @@
+// Also refer ak_AnaonymousObject
 class Calculator{
     int num = 5;
     public int add(int a, int b){
@@ -5,6 +6,7 @@ class Calculator{
     }
 }
 /*
+ * Stack and Heap are a part of JVM
  * Stack contains local variables like a, b in add, then a, b, data in main,
  * The obj1, obj2  will be stored in heap.
  * Num will also be stored in Heap as it is not local but a instantiated varible.
