@@ -1,5 +1,5 @@
 class Mobile {
-    static String name; // Static variables shared by all the instances of the 
+    static String name; // Static variables shared by all the instances of the Object
     int price;
     String brand;
 
@@ -27,7 +27,7 @@ class Mobile {
     }
 
     public void show(){
-        // In non static methods, we can use static variables, just an FYI
+        // In non static methods, we can use static variables
         System.out.println(name + " " + price + " " + brand); 
     }
 
@@ -83,7 +83,7 @@ public class ai_StaticKeyword {
 
         /*
          * How to only load a class but not make a object of it, this will not create a object
-         * but loads the class, so the static block will be called and it throws a exception
+         * but loads the class, so the static block will be called and forName may throw a exception
          * Class Not Found
          */
         Class.forName("Mobile");

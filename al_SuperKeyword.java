@@ -30,13 +30,14 @@ class Child extends Parent{
     }
 }
 public class al_SuperKeyword {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         /**
          * Super Keyword
          * 1. Super Keyword is used to refer the immediate parent class object.
          * 2. It is used to access the data members, constructor, methods of parent class.
          * 3. We can not use super keyword to access the static and Private members of parent class.
-         * 4. No Matter if I am calling the method of parent class, the parent class constructor will be called first.
+         * 4. No Matter if I am calling the method of parent class, the parent class constructor will be called first
          */
         /**
          * This keyword is used to refer the current class object.
