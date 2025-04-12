@@ -4,7 +4,7 @@ class Computer{
     }
 }
 class Laptop extends Computer{
-    public void run(){
+    public void run2(){
         System.out.println("Laptop Running");
     }
 }
@@ -15,6 +15,8 @@ public class ao_PolymorphismAndDynamicMD {
          * Polymorphism - More forms
          * i) Compile Time (Early Binding) - Method Overloading
          * ii) Run Time (Late Binding) - Method Overriding
+         * 
+         * DMD is a run time polymorphism because it wil be decided at run time, which class's method will be called.
          * 
          */
 

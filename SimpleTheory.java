@@ -4,7 +4,8 @@ public class SimpleTheory {
      * 2. Every Object consumes some space.
      * 3. If there are 3 classes in a file, then on compilation 3 .class files will be created 
      *    Moreover, if you use a different class in current class then that class's class file will also be created.
-     * 4. In one file, we can not have 2 classes as Public 
+     * 4. In one file, we can not have 2 classes as Public
+     * 5. By default, object is equal to toString() method that is defined in object class.
      * 
      * ah_Strings includes String, String Buffer, String Builder.
      * ai_StaticKeyword includes static variables, static methods and static block.
