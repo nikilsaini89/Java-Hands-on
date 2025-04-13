@@ -33,8 +33,8 @@ class Demo implements Carr, BdhiaCar{
 }
 public class ad_Interface {
     public static void main(String[] args) {
-        Demo d = new Demo();
-        System.out.println(d.a); // Prints 4
+        // Demo d = new Demo();
+        // System.out.println(d.a); // Prints 4
         System.out.println(Carr.a);  // Prints 4
 
         Carr c = new Demo(); // from this we can only call methods of Car(music, run and not bdhiaMusic)

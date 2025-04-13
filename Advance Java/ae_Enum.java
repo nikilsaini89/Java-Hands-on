@@ -17,6 +17,7 @@ enum Status{
     }
 }
 public class ae_Enum {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Status s = Status.valueOf("NOT_FOUND"); 
         Status ok = Status.OK;

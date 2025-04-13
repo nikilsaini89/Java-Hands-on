@@ -9,6 +9,7 @@ class B extends Aa{
     }
 }
 public class aq_UpAndDownCasting {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Aa obj = new B();
         // obj.show2(); 

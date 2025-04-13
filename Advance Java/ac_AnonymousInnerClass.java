@@ -5,6 +5,7 @@ class Demo{
 }
 
 public class ac_AnonymousInnerClass {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Demo d = new Demo(){
             public void show1(){
