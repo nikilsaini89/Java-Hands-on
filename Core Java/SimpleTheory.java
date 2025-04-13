@@ -28,6 +28,10 @@ public class SimpleTheory {
      * then there is a ambiguity which one to chose.
      * 
      * 
+     * Ache se ni kia - 
+     * UPcasting and downcasting
+     * to string wali vid
+     * 
      */
 
 

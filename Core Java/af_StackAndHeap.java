@@ -1,5 +1,5 @@
 // Also refer ak_AnaonymousObject
-class Calculator{
+class Calculator1{
     int num = 5;
     public int add(int a, int b){
         return a+b;
@@ -24,8 +24,8 @@ public class af_StackAndHeap {
     public static void main(String[] args) {
         int data = 10;
         System.out.println(data);
-        Calculator obj1 = new Calculator();
-        Calculator obj2 = new Calculator();
+        Calculator1 obj1 = new Calculator1();
+        Calculator1 obj2 = new Calculator1();
 
         int a = 2, b = 5;
         int result = obj1.add(a,b);

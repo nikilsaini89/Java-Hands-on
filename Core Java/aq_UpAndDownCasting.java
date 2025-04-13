@@ -12,6 +12,6 @@ public class aq_UpAndDownCasting {
     public static void main(String[] args) {
         A obj = new B();
         // obj.show2(); 
-
+        
     }
 }
