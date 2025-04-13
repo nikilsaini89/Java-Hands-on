@@ -1,4 +1,4 @@
-class Calculator{
+class Calculatorr{
     /*
      * Method overloading has alot to do with the number and types of paramters 
      * but nothing to do with the return type, if the no and type of parms is same, then 
