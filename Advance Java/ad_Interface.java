@@ -12,7 +12,7 @@
  */
 
 
-interface Car{
+interface Carr{
     int a = 4; // final and static
     void run();
     void music();
@@ -20,7 +20,7 @@ interface Car{
 interface BdhiaCar{
     void bdhiaMusic();
 }
-class Demo implements Car, BdhiaCar{
+class Demo implements Carr, BdhiaCar{
     public void run(){
         System.out.println("In run");
     }
@@ -35,9 +35,9 @@ public class ad_Interface {
     public static void main(String[] args) {
         Demo d = new Demo();
         System.out.println(d.a); // Prints 4
-        System.out.println(Car.a);  // Prints 4
+        System.out.println(Carr.a);  // Prints 4
 
-        Car c = new Demo(); // from this we can only call methods of Car(music, run and not bdhiaMusic)
+        Carr c = new Demo(); // from this we can only call methods of Car(music, run and not bdhiaMusic)
         c.music(); //runs
         // c.bdhiaMusic(); error
 
