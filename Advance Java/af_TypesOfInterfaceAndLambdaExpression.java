@@ -7,7 +7,7 @@
  * 
  */
 @FunctionalInterface
-interface car {
+interface carHuMai {
     void run(int i);
 }
 
@@ -19,7 +19,7 @@ public class af_TypesOfInterfaceAndLambdaExpression {
     public static void main(String[] args) {
 
         //Simple version
-        car car = new car(){
+        carHuMai car = new carHuMai(){
             // Inner class
             public void run(int i){
                 System.out.println("in Run " + i);
@@ -33,7 +33,7 @@ public class af_TypesOfInterfaceAndLambdaExpression {
          * removed {} cuz of single statement   
          */ 
 
-        car  car2 = i -> System.out.println("in Run " + i);
+        carHuMai  car2 = i -> System.out.println("in Run " + i);
         
         car2.run(5); // prints in run 5
 

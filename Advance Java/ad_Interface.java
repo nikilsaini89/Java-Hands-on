@@ -20,7 +20,7 @@ interface Carr{
 interface BdhiaCar{
     void bdhiaMusic();
 }
-class Demo implements Carr, BdhiaCar{
+class DemoClass implements Carr, BdhiaCar{
     public void run(){
         System.out.println("In run");
     }
@@ -33,11 +33,11 @@ class Demo implements Carr, BdhiaCar{
 }
 public class ad_Interface {
     public static void main(String[] args) {
-        // Demo d = new Demo();
+        // DemoClass d = new DemoClass();
         // System.out.println(d.a); // Prints 4
         System.out.println(Carr.a);  // Prints 4
 
-        Carr c = new Demo(); // from this we can only call methods of Car(music, run and not bdhiaMusic)
+        Carr c = new DemoClass(); // from this we can only call methods of Car(music, run and not bdhiaMusic)
         c.music(); //runs
         // c.bdhiaMusic(); error
 

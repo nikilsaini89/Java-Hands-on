@@ -1,4 +1,4 @@
-class Demo{
+class DemoClass2{
     public void show(){
         System.out.println("In Demo Show");
     }
@@ -7,7 +7,7 @@ class Demo{
 public class ac_AnonymousInnerClass {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
-        Demo d = new Demo(){
+        DemoClass2 d = new DemoClass2(){
             public void show1(){
                 System.out.println("In new Show");
             }
